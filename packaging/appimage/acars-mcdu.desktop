@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=ACARS MCDU
+GenericName=ACARS terminal
+Comment=Terminal ACARS de cabina con mapa y parametros de vuelo en vivo
+Exec=acars-mcdu
+Icon=acars-mcdu
+Categories=HamRadio;Network;Utility;
+Terminal=false
+StartupNotify=true
+Keywords=acars;sdr;rtlsdr;aviation;adsb;mcdu;

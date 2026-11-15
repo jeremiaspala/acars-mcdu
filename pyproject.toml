@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acars-mcdu"
+version = "1.0.0"
+description = "Terminal ACARS estilo cabina (MCDU) con mapa y parámetros de vuelo en vivo, sobre acarsdec + RTL-SDR"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["acars", "rtl-sdr", "sdr", "aviation", "adsb", "mcdu", "qt"]
+dependencies = ["PyQt6>=6.5"]
+
+[project.urls]
+Homepage = "https://github.com/jeremiaspala/acars-mcdu"
+
+[project.scripts]
+acars-mcdu = "acars_mcdu.main:main"
+
+[tool.setuptools]
+packages = ["acars_mcdu"]
